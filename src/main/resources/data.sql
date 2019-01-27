@@ -1,7 +1,7 @@
 DROP TABLE IF EXISTS bike;
 
 CREATE TABLE bike(
-         id INTEGER NOT NULL AUTO_INCREMENT,
+         id INTEGER AUTO_INCREMENT,
         contact BOOLEAN,
         email VARCHAR(255) NOT NULL DEFAULT'',
         model VARCHAR(255) NOT NULL DEFAULT'' ,
